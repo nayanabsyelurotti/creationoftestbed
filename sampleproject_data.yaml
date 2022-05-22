@@ -1,0 +1,23 @@
+
+TriggerGetRunningConfig:
+  source:
+     pkg : sampleproject
+     class: GetRunningConfig
+  devices :
+    - sbx-ao
+    
+    
+TriggerCommonSetup:
+  source:
+     pkg : sampleproject
+     class: CommonSetup
+     
+     
+TriggerCommonCleanup:
+  source:
+     pkg : sampleproject
+     class: CommonCleanup
+      
+    
+   
+   
